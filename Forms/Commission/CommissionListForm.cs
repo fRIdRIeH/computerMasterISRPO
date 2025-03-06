@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ComputerMaster.Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +13,8 @@ namespace ComputerMaster.Forms.Commission
 {
     public partial class CommissionListForm : Form
     {
-        public CommissionListForm()
+        private readonly CommissionRepository _commissionRepository;
+        public CommissionListForm(CommissionRepository commissionRepository)
         {
             InitializeComponent();
         }

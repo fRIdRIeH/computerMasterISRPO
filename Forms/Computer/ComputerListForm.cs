@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ComputerMaster.Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,11 @@ namespace ComputerMaster.Forms.Computer
 {
     public partial class ComputerListForm : Form
     {
-        public ComputerListForm()
+        private readonly ComputerRepository _computerRepository;
+        public ComputerListForm(ComputerRepository computerRepository)
         {
             InitializeComponent();
+            _computerRepository = computerRepository;
         }
     }
 }

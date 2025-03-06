@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ComputerMaster.Repositories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,11 @@ namespace ComputerMaster.Forms.Client
 {
     public partial class ClientListForm : Form
     {
-        public ClientListForm()
+        private readonly ClientRepository _clientRepository;
+        public ClientListForm(ClientRepository clientRepository)
         {
             InitializeComponent();
+            _clientRepository = clientRepository;
         }
     }
 }
