@@ -41,6 +41,7 @@
             btnGoToClientListForm.TabIndex = 0;
             btnGoToClientListForm.Text = "Клиенты";
             btnGoToClientListForm.UseVisualStyleBackColor = true;
+            btnGoToClientListForm.Click += btnGoToClientListForm_Click;
             // 
             // btnGoToComputerListForm
             // 
@@ -50,6 +51,7 @@
             btnGoToComputerListForm.TabIndex = 1;
             btnGoToComputerListForm.Text = "Компьютеры";
             btnGoToComputerListForm.UseVisualStyleBackColor = true;
+            btnGoToComputerListForm.Click += btnGoToComputerListForm_Click;
             // 
             // btnGoToCommissionListForm
             // 
@@ -59,6 +61,7 @@
             btnGoToCommissionListForm.TabIndex = 2;
             btnGoToCommissionListForm.Text = "Заказы";
             btnGoToCommissionListForm.UseVisualStyleBackColor = true;
+            btnGoToCommissionListForm.Click += btnGoToCommissionListForm_Click;
             // 
             // MainForm
             // 
@@ -69,7 +72,7 @@
             Controls.Add(btnGoToComputerListForm);
             Controls.Add(btnGoToClientListForm);
             Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            Margin = new Padding(5, 5, 5, 5);
+            Margin = new Padding(5);
             MaximizeBox = false;
             Name = "MainForm";
             StartPosition = FormStartPosition.CenterScreen;

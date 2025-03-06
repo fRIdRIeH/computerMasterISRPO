@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ComputerMaster")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b90468d9c27bff7d29da1cbbb4eb6eda48e22fc6")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6983ed77d561677018271fd767a9fdae67b4db22")]
 [assembly: System.Reflection.AssemblyProductAttribute("ComputerMaster")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ComputerMaster")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
