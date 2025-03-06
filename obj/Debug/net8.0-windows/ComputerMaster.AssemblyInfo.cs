@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ComputerMaster")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c95d618df76daa3cc002ff5beb33e44b81ecd600")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa227e7ef653859dd2a4fa22f42ee978941dd578")]
 [assembly: System.Reflection.AssemblyProductAttribute("ComputerMaster")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ComputerMaster")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
