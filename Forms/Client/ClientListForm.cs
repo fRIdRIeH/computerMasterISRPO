@@ -50,7 +50,19 @@ namespace ComputerMaster.Forms.Client
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            if(dataGridView1.SelectedRows.Count == 1) 
+            {
+                var selectedRow = dataGridView1.SelectedRows[0];
 
+                var clientId = selectedRow.Cells["Id"].Value;
+
+                if (clientId != null && int.TryParse(clientId.ToString(), out int id))
+                {
+                    _clientRepository.Delete(id);
+                    MessageBox.Show("Клиент удален.");
+                    LoadData();
+                }
+            }
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
