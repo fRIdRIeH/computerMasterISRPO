@@ -44,7 +44,7 @@ namespace ComputerMaster.Repositories
 
         public bool Delete(int id)
         {
-            string deleteQuery = "DELETE Client WHERE Id = @Id";
+            string deleteQuery = "DELETE FROM Client WHERE Id = @Id";
 
             using(MySqlCommand cmd = new MySqlCommand(deleteQuery, _connection))
             {
