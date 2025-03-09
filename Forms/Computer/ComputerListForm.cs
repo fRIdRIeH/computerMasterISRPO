@@ -18,26 +18,56 @@ namespace ComputerMaster.Forms.Computer
         {
             InitializeComponent();
             _computerRepository = computerRepository;
+            LoadData();
         }
 
         private void btnRefresh_Click(object sender, EventArgs e)
         {
-
+            LoadData();
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-
+            ComputerAddForm computerAddForm = new ComputerAddForm(_computerRepository, 0);
+            computerAddForm.ShowDialog();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            if (dataGridViewComputer.SelectedRows.Count == 1) 
+            {
+                var selectedRows = dataGridViewComputer.SelectedRows[0];
 
+                var computerId = selectedRows.Cells["Id"].Value;
+
+                if (computerId != null && int.TryParse(computerId.ToString(), out int id)){
+                    try
+                    {
+                        _computerRepository.Delete(id);
+                        LoadData();
+                        MessageBox.Show("Компьютер удален.");
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Ошибка! " + ex.Message);
+                    }
+                }
+            }
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
+            if (dataGridViewComputer.SelectedRows.Count == 1)
+            {
+                var selectedRows = dataGridViewComputer.SelectedRows[0];
 
+                var computerId = selectedRows.Cells["Id"].Value;
+
+                if (computerId != null && int.TryParse(computerId.ToString(), out int id)){
+                    ComputerAddForm computerAddForm = new ComputerAddForm(_computerRepository, id);
+                    computerAddForm.ShowDialog();
+                }
+            }
         }
 
         private void dataGridViewComputer_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -48,7 +78,7 @@ namespace ComputerMaster.Forms.Computer
             }
         }
 
-        private void LoadData()
+        public void LoadData()
         {
             var computers = _computerRepository.GetAll();
 
