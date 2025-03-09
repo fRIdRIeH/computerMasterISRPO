@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\computerMaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{723F1905-C5BB-418B-A12B-008DBE8ECCA5}|ComputerMaster.csproj|C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\computerMaster\\forms\\client\\clientlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{723F1905-C5BB-418B-A12B-008DBE8ECCA5}|ComputerMaster.csproj|solutionrelative:forms\\client\\clientlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{723F1905-C5BB-418B-A12B-008DBE8ECCA5}|ComputerMaster.csproj|c:\\users\\fridrieh\\desktop\\labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0438\u0441\u0440\u043F\u043E\\computermaster\\repositories\\computerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723F1905-C5BB-418B-A12B-008DBE8ECCA5}|ComputerMaster.csproj|solutionrelative:repositories\\computerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{723F1905-C5BB-418B-A12B-008DBE8ECCA5}|ComputerMaster.csproj|c:\\users\\fridrieh\\desktop\\labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0438\u0441\u0440\u043F\u043E\\computermaster\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{723F1905-C5BB-418B-A12B-008DBE8ECCA5}|ComputerMaster.csproj|solutionrelative:repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{723F1905-C5BB-418B-A12B-008DBE8ECCA5}|ComputerMaster.csproj|C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\computerMaster\\forms\\client\\clientlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{723F1905-C5BB-418B-A12B-008DBE8ECCA5}|ComputerMaster.csproj|solutionrelative:forms\\client\\clientlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{723F1905-C5BB-418B-A12B-008DBE8ECCA5}|ComputerMaster.csproj|c:\\users\\fridrieh\\desktop\\labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0438\u0441\u0440\u043F\u043E\\computermaster\\models\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{723F1905-C5BB-418B-A12B-008DBE8ECCA5}|ComputerMaster.csproj|solutionrelative:models\\computer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClientRepository.cs",
-              "DocumentMoniker": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\computerMaster\\Repositories\\ClientRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ClientRepository.cs",
-              "ToolTip": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\computerMaster\\Repositories\\ClientRepository.cs",
-              "RelativeToolTip": "Repositories\\ClientRepository.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAC4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T14:00:39.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClientListForm.cs",
-              "DocumentMoniker": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\computerMaster\\Forms\\Client\\ClientListForm.cs",
-              "RelativeDocumentMoniker": "Forms\\Client\\ClientListForm.cs",
-              "ToolTip": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\computerMaster\\Forms\\Client\\ClientListForm.cs",
-              "RelativeToolTip": "Forms\\Client\\ClientListForm.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAD0AAAA2AAAA",
+              "Title": "ComputerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\computerMaster\\Repositories\\ComputerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ComputerRepository.cs",
+              "ToolTip": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\computerMaster\\Repositories\\ComputerRepository.cs",
+              "RelativeToolTip": "Repositories\\ComputerRepository.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T16:11:41.228Z",
+              "WhenOpened": "2025-03-07T14:10:11.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ClientListForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "DocumentMoniker": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\computerMaster\\Forms\\Client\\ClientListForm.cs",
-              "RelativeDocumentMoniker": "Forms\\Client\\ClientListForm.cs",
-              "ToolTip": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\computerMaster\\Forms\\Client\\ClientListForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
-              "RelativeToolTip": "Forms\\Client\\ClientListForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentIndex": 1,
+              "Title": "Computer.cs",
+              "DocumentMoniker": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\computerMaster\\Models\\Computer.cs",
+              "RelativeDocumentMoniker": "Models\\Computer.cs",
+              "ToolTip": "C:\\Users\\fRIdRIeH\\Desktop\\Labs\\4 \u043A\u0443\u0440\u0441\\\u0441# \u0418\u0421\u0420\u041F\u041E\\computerMaster\\Models\\Computer.cs",
+              "RelativeToolTip": "Models\\Computer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T16:08:43.65Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+              "WhenOpened": "2025-03-07T14:11:30.266Z",
+              "EditorCaption": ""
             }
           ]
         }

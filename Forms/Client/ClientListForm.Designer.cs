@@ -101,7 +101,7 @@
             MaximizeBox = false;
             Name = "ClientListForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "ClientListForm";
+            Text = "Список клиентов";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
         }

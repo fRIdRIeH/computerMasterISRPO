@@ -19,5 +19,41 @@ namespace ComputerMaster.Forms.Computer
             InitializeComponent();
             _computerRepository = computerRepository;
         }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridViewComputer_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if(e.RowIndex >= 0) 
+            {
+                dataGridViewComputer.Rows[e.RowIndex].Selected = true;
+            }
+        }
+
+        private void LoadData()
+        {
+            var computers = _computerRepository.GetAll();
+
+            dataGridViewComputer.DataSource = null;
+            dataGridViewComputer.DataSource = computers;
+        }
     }
 }
