@@ -23,12 +23,13 @@ namespace ComputerMaster.Models
         public Commission() { }
 
         //Для вывода в ComissionListForm
-        public Commission(int id, string computerModel, DateTime commissionDate, decimal commissionPrice, string clientName, string clientAddress, string clientTelephone, string status, string note) 
+        public Commission(int id, string computerModel, DateTime commissionDate, decimal commissionPrice, int clientId, string clientName, string clientAddress, string clientTelephone, string status, string note) 
         {
             Id = id;
             ComputerModel = computerModel;
             CommissionDate = commissionDate;
             CommissionPrice = commissionPrice;
+            ClientId = clientId;
             ClientName = clientName;
             ClientAddress = clientAddress;
             ClientTelephone = clientTelephone;
@@ -42,6 +43,16 @@ namespace ComputerMaster.Models
             CommissionDate = commissionDate;
             CommissionPrice = commissionPrice;
             ClientId = clientId;
+            Status = status;
+            Note = note;
+        }
+
+        //Для обновления данных в БД
+        public Commission(int id, DateTime commissionDate, decimal commissionPrice, string status, string note)
+        {
+            Id = id;
+            CommissionDate = commissionDate;
+            CommissionPrice = commissionPrice;
             Status = status;
             Note = note;
         }
