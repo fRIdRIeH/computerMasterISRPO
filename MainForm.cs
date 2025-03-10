@@ -31,8 +31,10 @@ namespace ComputerMaster
 
         private void btnGoToCommissionListForm_Click(object sender, EventArgs e)
         {
+            ClientRepository clientRepository = new(_connection);
+            ComputerRepository computerRepository = new(_connection);
             CommissionRepository commissionRepository = new(_connection);
-            CommissionListForm commissionListForm = new CommissionListForm(commissionRepository);
+            CommissionListForm commissionListForm = new CommissionListForm(clientRepository, computerRepository, commissionRepository);
             commissionListForm.ShowDialog();
         }
     }
