@@ -48,11 +48,10 @@ namespace ComputerMaster.Models
         }
 
         //Для обновления данных в БД
-        public Commission(int id, DateTime commissionDate, decimal commissionPrice, string status, string note)
+        public Commission(int id, DateTime commissionDate, string status, string note)
         {
             Id = id;
             CommissionDate = commissionDate;
-            CommissionPrice = commissionPrice;
             Status = status;
             Note = note;
         }

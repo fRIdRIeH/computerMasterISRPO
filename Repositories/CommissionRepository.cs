@@ -91,7 +91,7 @@ namespace ComputerMaster.Repositories
                 "cm.Note AS Примечание " +
                 "FROM Commission cm " +
                 "JOIN Computer c ON cm.Computer_Id = c.Id " +
-                "JOIN Client cl ON cm.Client_Id = cl.Id" +
+                "JOIN Client cl ON cm.Client_Id = cl.Id " +
                 "WHERE cm.Id = @Id";
 
             using (MySqlCommand cmd = new MySqlCommand(selectQuery, _connection)) 

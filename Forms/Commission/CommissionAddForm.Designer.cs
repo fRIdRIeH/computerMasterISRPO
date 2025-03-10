@@ -37,12 +37,12 @@
             priceInput = new NumericUpDown();
             clientNameInput = new TextBox();
             label4 = new Label();
-            clientAddressInput = new TextBox();
+            clientTelephoneInput = new TextBox();
             label5 = new Label();
-            clientTelephone = new TextBox();
+            clientAddressInput = new TextBox();
             label6 = new Label();
             label7 = new Label();
-            textBox2 = new TextBox();
+            noteInput = new TextBox();
             label8 = new Label();
             statusInput = new ComboBox();
             dataGridViewComputers = new DataGridView();
@@ -72,6 +72,7 @@
             btnAddOrEdit.TabIndex = 1;
             btnAddOrEdit.Text = "button1";
             btnAddOrEdit.UseVisualStyleBackColor = true;
+            btnAddOrEdit.Click += btnAddOrEdit_Click;
             // 
             // modelInput
             // 
@@ -129,12 +130,12 @@
             label4.TabIndex = 7;
             label4.Text = "Имя клиента";
             // 
-            // clientAddressInput
+            // clientTelephoneInput
             // 
-            clientAddressInput.Location = new Point(12, 293);
-            clientAddressInput.Name = "clientAddressInput";
-            clientAddressInput.Size = new Size(300, 33);
-            clientAddressInput.TabIndex = 10;
+            clientTelephoneInput.Location = new Point(12, 293);
+            clientTelephoneInput.Name = "clientTelephoneInput";
+            clientTelephoneInput.Size = new Size(300, 33);
+            clientTelephoneInput.TabIndex = 10;
             // 
             // label5
             // 
@@ -145,12 +146,12 @@
             label5.TabIndex = 9;
             label5.Text = "Телефон клиента";
             // 
-            // clientTelephone
+            // clientAddressInput
             // 
-            clientTelephone.Location = new Point(12, 357);
-            clientTelephone.Name = "clientTelephone";
-            clientTelephone.Size = new Size(300, 33);
-            clientTelephone.TabIndex = 12;
+            clientAddressInput.Location = new Point(12, 357);
+            clientAddressInput.Name = "clientAddressInput";
+            clientAddressInput.Size = new Size(300, 33);
+            clientAddressInput.TabIndex = 12;
             // 
             // label6
             // 
@@ -170,12 +171,12 @@
             label7.TabIndex = 13;
             label7.Text = "Статус заказа";
             // 
-            // textBox2
+            // noteInput
             // 
-            textBox2.Location = new Point(12, 485);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(300, 33);
-            textBox2.TabIndex = 16;
+            noteInput.Location = new Point(12, 485);
+            noteInput.Name = "noteInput";
+            noteInput.Size = new Size(300, 33);
+            noteInput.TabIndex = 16;
             // 
             // label8
             // 
@@ -196,6 +197,7 @@
             // 
             // dataGridViewComputers
             // 
+            dataGridViewComputers.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewComputers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewComputers.Location = new Point(373, 37);
             dataGridViewComputers.Name = "dataGridViewComputers";
@@ -223,6 +225,7 @@
             // 
             // dataGridViewClients
             // 
+            dataGridViewClients.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridViewClients.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewClients.Location = new Point(373, 293);
             dataGridViewClients.Name = "dataGridViewClients";
@@ -232,7 +235,7 @@
             // 
             // btnPreview
             // 
-            btnPreview.Location = new Point(972, 693);
+            btnPreview.Location = new Point(972, 524);
             btnPreview.Name = "btnPreview";
             btnPreview.Size = new Size(300, 66);
             btnPreview.TabIndex = 22;
@@ -251,12 +254,12 @@
             Controls.Add(label9);
             Controls.Add(dataGridViewComputers);
             Controls.Add(statusInput);
-            Controls.Add(textBox2);
+            Controls.Add(noteInput);
             Controls.Add(label8);
             Controls.Add(label7);
-            Controls.Add(clientTelephone);
-            Controls.Add(label6);
             Controls.Add(clientAddressInput);
+            Controls.Add(label6);
+            Controls.Add(clientTelephoneInput);
             Controls.Add(label5);
             Controls.Add(clientNameInput);
             Controls.Add(label4);
@@ -290,12 +293,12 @@
         private NumericUpDown priceInput;
         private TextBox clientNameInput;
         private Label label4;
-        private TextBox clientAddressInput;
+        private TextBox clientTelephoneInput;
         private Label label5;
-        private TextBox clientTelephone;
+        private TextBox clientAddressInput;
         private Label label6;
         private Label label7;
-        private TextBox textBox2;
+        private TextBox noteInput;
         private Label label8;
         private ComboBox statusInput;
         private DataGridView dataGridViewComputers;

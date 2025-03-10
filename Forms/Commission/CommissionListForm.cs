@@ -46,11 +46,11 @@ namespace ComputerMaster.Forms.Commission
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (dataGridViewCommission.Rows.Count == 1) 
+            if (dataGridViewCommission.SelectedRows.Count == 1) 
             {
                 var selectedRow = dataGridViewCommission.SelectedRows[0];
 
-                var commissionId = selectedRow.Cells["Идентификатор_Заказа"].Value;
+                var commissionId = selectedRow.Cells["Id"].Value;
 
                 if(commissionId != null && int.TryParse(commissionId.ToString(), out int id))
                 {
